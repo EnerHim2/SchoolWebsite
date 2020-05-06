@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto';
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.element::-webkit-scrollbar {width: 0 !important}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    padding: 15px;
+    background-color: darkgreen;;
+}
+
+.nav-col {
+    list-style-type: none;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+li {
+    margin-right: 50px;
+}
+
+.logo {
+    float: left;
+}
+
+.welcome {
+    background-image: url("bg1.jpg");
+    text-align: center;
+    padding-top: 10px;
+    height: 290px;
+}
+
+.welcome-text {
+    margin-top: 120px;
+    color: white;
+    font-weight: lighter;
+    font-size: 64px;
+}
+
+.mission {
+    background-color: rgb(168, 255, 157);
+}
+
+.mission-title {
+    font-size: 64px;
+    font-weight: lighter;
+    text-align: center;
+    background-color: rgb(69, 202, 52);
+    padding: 20px;
+}
+
+.mission-png {
+    float: left;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.mission-text {
+    font-size: 30px;
+    font-weight: lighter;
+    padding-top: 22.5px;
+    padding-bottom: 75px;
+}
