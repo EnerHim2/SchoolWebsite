@@ -80,3 +80,39 @@ li {
     padding-top: 22.5px;
     padding-bottom: 75px;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.row strong {
+    color: #045008;
+}
+
+.row a {
+    color: #045008;
+}
+
+.row li{
+    list-style-type: square;
+}
+  
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px 10px 40px 40px;
+}
+  
+.row:after {
+    display: table;
+    clear: both;
+}
+
+.aboutus-text {
+    font-size: 64px;
+    font-weight: lighter;
+    text-align: center;
+    background-color: rgb(69, 202, 52);
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 0px;
+}
